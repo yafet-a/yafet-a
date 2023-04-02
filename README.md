@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Yafet Alula</h1>
+<h1 align="center">Hi, I'm Yafet Alula 👋</h1>
 <h3 align="center">An aspiring developer and One Piece enthusiast</h3>
 
 - 🌱 I’m currently studying **BSc Computer Science @ Warwick University**
