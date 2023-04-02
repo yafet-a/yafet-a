@@ -1,5 +1,7 @@
 <h1 align="center">Hi 👋, I'm Yafet Alula</h1>
-<h3 align="center">A passionate Warwick Computer-Science student and aspiring developer from London</h3>
+<h3 align="center">An aspiring developer and One Piece enthusiast</h3>
+
+- 🌱 I’m currently studying **BSc Computer Science @ Warwick University**
 
 - 📫 How to reach me **alulayafet@gmail.com**
 
