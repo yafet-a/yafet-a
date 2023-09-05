@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently studying **BSc Computer Science @ Warwick University**
 
-- 📫 How to reach me **alulayafet@gmail.com** https://www.linkedin.com/in/yafit-beyene-96a167243/
+- 📫 How to reach me **alulayafet@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
