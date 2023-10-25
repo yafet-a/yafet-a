@@ -1,11 +1,11 @@
 <h1 align="center">Hi, I'm Yafet Alula 👋</h1>
 <h3 align="center">I'm an aspiring developer and current student</h3>
 
-- 🌱 I’m currently studying **BSc Computer Science @ Warwick University**
+- 🌱 I’m currently pursuing a **BSc in Computer Science @ The University of Warwick**
 
 - 📫 How to reach me **alulayafet@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Also feel free to connect with me here:</h3>
 <p align="left">
 <a href="https://www.linkedin.com/in/yafit-beyene-96a167243/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="yafit beyene" height="30" width="40" /></a>
 </p>
