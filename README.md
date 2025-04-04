@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Yafet Beyene 👋</h1>
 <h3 align="center">I'm an aspiring developer and current student</h3>
 
-- 🌱 I’m pursuing a **BSc in Computer Science @ The University of Warwick**
+- 🌱 I’m pursuing **Computer Science @ The University of Warwick**
 
 - 📫 How to reach me **alulayafet@gmail.com**
 
