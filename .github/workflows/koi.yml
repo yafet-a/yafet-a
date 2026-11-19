@@ -1,0 +1,45 @@
+# Redraws the koi and its pond every night from public GitHub activity
+# (https://github.com/yafet-a/git-koi).
+name: Koi
+
+on:
+  schedule:
+    - cron: "20 0 * * *" # just after midnight UTC, so the koi shows the day that just ended
+  workflow_dispatch:
+  push:
+    paths: [.github/workflows/koi.yml]
+
+permissions:
+  contents: write
+
+concurrency: koi
+
+jobs:
+  koi:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # Pinned to the v1.1.0 commit: this job can push to the repo, so a moved tag must not change what runs.
+      - uses: yafet-a/git-koi@dc3317e569f39e902973e46d6d2e20ae361c008c # v1.1.0
+        with:
+          scene: auto
+          night: "true"
+          body: asagi
+          night-body: platinum
+          garden: garden
+          lights: euro
+          moon: lines
+          output-dir: koi
+      - name: Commit the koi if it changed
+        shell: bash
+        run: |
+          git add koi/koi.gif koi/koi-night.gif
+          if git diff --cached --quiet; then
+            echo "The koi is unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit --quiet --message "koi: draw the day's koi"
+          git pull --rebase --quiet   # another push may have landed while the koi was drawing
+          git push --quiet
