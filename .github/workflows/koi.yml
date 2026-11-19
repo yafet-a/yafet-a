@@ -19,21 +19,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      # Pinned to the v1.1.0 commit: this job can push to the repo, so a moved tag must not change what runs.
-      - uses: yafet-a/git-koi@dc3317e569f39e902973e46d6d2e20ae361c008c # v1.1.0
+      # Pinned to the v1.2.0 commit: this job can push to the repo, so a moved tag must not change what runs.
+      - uses: yafet-a/git-koi@0c2410db950dd4bbcd4844820d1462783089fff6 # v1.2.0
         with:
           scene: auto
+          weather: clear
           night: "true"
           body: asagi
           night-body: platinum
           garden: deckold
           lights: euro
           moon: lines
+          layout: garden
+          scale: "2"
           output-dir: koi
       - name: Commit the koi if it changed
         shell: bash
         run: |
-          git add koi/koi.gif koi/koi-night.gif
+          git add koi/koi.gif koi/koi-night.gif koi/koi-pond.gif koi/koi-pond-night.gif
           if git diff --cached --quiet; then
             echo "The koi is unchanged; nothing to commit."
             exit 0
