@@ -26,7 +26,7 @@ jobs:
           night: "true"
           body: asagi
           night-body: platinum
-          garden: garden
+          garden: deckold
           lights: euro
           moon: lines
           output-dir: koi
