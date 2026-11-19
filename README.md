@@ -8,6 +8,6 @@
   </picture>
 </p>
 
-### Get in touch
+### Contact
 
 [yafet.a.beyene@gmail.com](mailto:yafet.a.beyene@gmail.com) · [LinkedIn](https://www.linkedin.com/in/yafetbeyene/)
