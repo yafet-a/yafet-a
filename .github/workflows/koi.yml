@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      # Pinned to the v1.2.0 commit: this job can push to the repo, so a moved tag must not change what runs.
-      - uses: yafet-a/git-koi@0c2410db950dd4bbcd4844820d1462783089fff6 # v1.2.0
+      # Pinned to the v1.2.1 commit: this job can push to the repo, so a moved tag must not change what runs.
+      - uses: yafet-a/git-koi@a7f53ee53fd9e856f094958e0477f5169d6ef1e0 # v1.2.1
         with:
           scene: auto
           weather: clear
